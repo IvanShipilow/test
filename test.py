@@ -10,4 +10,9 @@ x = int(input('Введите 1 число: '))
 y = int(input('Введите 2 число: ')) 
 def sum(a,b):
     return a + b
-print(sum(x,y))    
+print(sum(x,y))  
+print('\n')  
+
+name = 'цикл фор!'
+for i in name:
+    print(i)
