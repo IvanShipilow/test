@@ -34,3 +34,9 @@ print('\n')
 lack ={"яблоко": 'красное', 'лимон': 'жёлтый'}
 for i in lack.keys():
     print(i)
+print('\n')
+for l in lack.values():
+    print(l)
+print('\n')
+for f in lack.items():
+    print(f)
