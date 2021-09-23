@@ -26,3 +26,11 @@ while i<=10:
     if i != 5:
       print(i)
     i+=1    
+print(type(i))
+
+tuple = ('dasf', 45 , 54 , 56,)
+print(tuple)
+print('\n')
+lack ={"яблоко": 'красное', 'лимон': 'жёлтый'}
+for i in lack.keys():
+    print(i)
